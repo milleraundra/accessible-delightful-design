@@ -19,6 +19,15 @@ body {
     padding: 1rem;
 }
 
+.primary-navbar ul li:hover {
+    background-color: #007373;
+}
+
+.primary-navbar ul li:active, .primary-navbar ul li:focus {
+    background-color: #006363;
+
+}
+
 .primary-navbar ul li a {
     text-decoration: none;
     color: white;
