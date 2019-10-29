@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.primary-navbar ul{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    width: 100vw;
+}
+
+.primary-navbar ul li{
+    list-style: none;
+    padding: 1rem;
+    background-color: teal;
+}
+
+.primary-navbar ul li a {
+    text-decoration: none;
+    color: white;
+}
