@@ -7,14 +7,16 @@ body {
 .primary-navbar ul{
     margin: 0;
     padding: 0;
-    display: grid;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
     width: 100vw;
+    background-color: teal;
 }
 
 .primary-navbar ul li{
     list-style: none;
     padding: 1rem;
-    background-color: teal;
 }
 
 .primary-navbar ul li a {
